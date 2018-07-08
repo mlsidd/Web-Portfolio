@@ -1,0 +1,135 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+#mainContent {
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#jumbotron {
+    background-color: rgb(160, 250, 238);
+    margin-bottom: 0;
+}
+
+#navbar {
+    background-color: black;
+}
+
+#aboutLink {
+    color: rgb(7, 224, 195);
+}
+
+#portfolioLink {
+    margin-left: 15px;
+    color: rgb(7, 224, 195);
+}
+
+#contactLink {
+    margin-left: 15px;
+    color: rgb(7, 224, 195);
+}
+
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#homePagePhoto {
+    box-shadow: 0 0 6px 6px rgb(117, 115, 115) inset;
+    padding:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#mainPageImageHolder {
+    background-image: url("../images/computerbackgroundphoto.jpg");
+    filter: grayscale(100%);
+}
+
+#homePageSentence {
+    font-family: 'Wendy One', sans-serif;
+    color: rgb(7, 224, 195);
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 34px;
+}
+
+.mainContentColumns {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#footer {
+    margin-top: 0;
+}
+
+#portRow1, #portRow2 {
+    background-color: black;    
+}
+
+#cardDeckHolder1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cardDeckHolder2 {
+    margin-bottom: 50px;
+}
+
+#main-container {
+    padding-top: 25px;
+    min-height: calc(100vh - 70px);
+    margin-bottom:50px;
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #ddd;
+  }
+
+  #rowAbout {
+      background-color: black;
+  }
+
+  #aboutTitle {
+      color:white;
+  }
+
+  #aboutImage {
+      margin-right: 15px;
+      margin-bottom: 15px;
+      padding-right: 15px;
+  }
+
+  .aboutPara {
+      color:white;
+      font-size: 20px;
+  }
+
+  #rowContact {
+      background-color: black;
+  }
+
+  label {
+    color: rgb(7, 224, 195);
+}
+
+#contactFormHolder {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
